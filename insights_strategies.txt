@@ -1,0 +1,80 @@
+
+#INSIGHTS
+Insight 1 — Sentiment Extremes Drive Performance
+Win rate increases from 37.06% (Extreme Fear) to 46.49% (Extreme Greed), showing a 9.4 percentage point improvement during strong bullish sentiment.
+
+Conclusion:
+Bullish extreme sentiment improves trade success probability.
+
+Insight 2 — Risk Appetite Increases During Greed
+Average trade size and/or frequency increases during Greed phases.
+
+Conclusion:
+Traders deploy more capital and trade more actively during optimistic markets.
+
+Insight 3 — Volatile Traders Are More Sentiment-Sensitive
+High-volatility traders outperform in Greed but underperform in Fear, showing amplified reaction to market psychology.
+
+Conclusion:
+Trader type determines sensitivity to emotional market conditions.
+
+Final Conclusion for Part B
+Performance differs meaningfully across sentiment regimes.
+Trader behavior changes in trade frequency, size, and directional bias.
+Different trader segments respond differently to sentiment cycles.
+
+This confirms that market sentiment has measurable impact on both profitability and behavioral patterns.
+
+#STRATEGIES
+
+Strategy Idea 1
+Sentiment-Adaptive Risk Scaling
+
+Rule of Thumb:
+Increase position size during Extreme Greed; reduce position size during Extreme Fear.
+
+Why?
+From our data:
+Win rate increases from 37.1% (Extreme Fear) to 46.5% (Extreme Greed),that’s a ~9.4 percentage point improvement
+Performance is materially stronger in strong bullish sentiment
+
+Practical Implementation:
+
+Sentiment	    Position Rule
+Extreme Greed	Increase size by 20–30%
+Greed	        Normal size
+Neutral	        Normal size
+Fear	        Reduce size by 15–20%
+Extreme Fear	Reduce size by 30–40%
+
+Rationale:
+Traders perform better during strong bullish sentiment
+Extreme Fear increases downside risk and lowers win probability
+Scaling exposure based on sentiment improves risk-adjusted returns
+
+Strategy Idea 2
+Selective Aggression by Trader Type
+
+Rule of Thumb:
+Frequent and Consistent traders should trade actively during Greed phases; Infrequent or Volatile traders should reduce activity during Fear phases.
+
+Why?
+our segmentation showed:
+Frequent traders adapt better to bullish cycles
+Volatile traders experience amplified drawdowns during Fear
+Behavioral sensitivity differs across segments
+
+Practical Implementation:
+
+For Frequent Traders:
+Increase trade frequency during Greed
+Maintain normal exposure in Neutral
+Slightly reduce during Extreme Fear
+For Volatile Traders:
+cut exposure aggressively during Fear
+Avoid overtrading during high volatility sentiment
+
+Rationale:
+
+Not all traders react equally to sentiment shifts.
+Segment-based positioning improves capital preservation.
